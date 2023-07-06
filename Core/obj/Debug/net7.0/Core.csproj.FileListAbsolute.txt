@@ -1,0 +1,12 @@
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Core\bin\Debug\net7.0\Core.deps.json
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Core\bin\Debug\net7.0\Core.dll
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Core\bin\Debug\net7.0\Core.pdb
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Core\obj\Debug\net7.0\Core.csproj.AssemblyReference.cache
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Core\obj\Debug\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Core\obj\Debug\net7.0\Core.AssemblyInfoInputs.cache
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Core\obj\Debug\net7.0\Core.AssemblyInfo.cs
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Core\obj\Debug\net7.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Core\obj\Debug\net7.0\Core.dll
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Core\obj\Debug\net7.0\refint\Core.dll
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Core\obj\Debug\net7.0\Core.pdb
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Core\obj\Debug\net7.0\ref\Core.dll

@@ -10,3 +10,6 @@ C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Entities\obj\Debug\net7.0\Enti
 C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Entities\obj\Debug\net7.0\refint\Entities.dll
 C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Entities\obj\Debug\net7.0\Entities.pdb
 C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Entities\obj\Debug\net7.0\ref\Entities.dll
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Entities\bin\Debug\net7.0\Core.dll
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Entities\bin\Debug\net7.0\Core.pdb
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\Entities\obj\Debug\net7.0\Entities.csproj.CopyComplete
