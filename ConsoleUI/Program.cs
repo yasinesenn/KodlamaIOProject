@@ -13,9 +13,13 @@ namespace ConsoleUI
             // ProductTest();
             // CategoryTest();
 
+
+            TableTest();
+
             Console.ReadLine();
         }
 
+       
 
         /*******************************************************************************************************/
         private static void CategoryTest()
@@ -26,7 +30,14 @@ namespace ConsoleUI
                 Console.WriteLine(category.CategoryName);
             }
         }
-
+        private static void TableTest()
+        {
+            ProductManager productManager = new ProductManager(new EfProductDal());
+            foreach (var product in productManager.GetProductDetails())
+            {
+                Console.WriteLine(product.ProductName + " / " + product.CategoryName);
+            }
+        }
         private static void ProductTest()
         {
             ProductManager productManager = new ProductManager(new EfProductDal());
