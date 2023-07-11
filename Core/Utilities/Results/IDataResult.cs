@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Core.Utilities.Results
 {
-    // temel voidler icin baslangic
-    public interface IResult
+    public interface IDataResult<T>:IResult
     {
-        bool Success { get; }
-        string Message { get; }
+        T Data { get; }
 
 
     }
