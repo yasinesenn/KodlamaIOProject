@@ -12,6 +12,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Autofact AOP kullandirtir
+// autofact, ninject, castlewindsor, structuremap, lightInject, dryInject --> ioc container
+// AOP 
 builder.Services.AddSingleton<IProductService,ProductManager>();
 builder.Services.AddSingleton<IProductDal,EfProductDal>();
 
