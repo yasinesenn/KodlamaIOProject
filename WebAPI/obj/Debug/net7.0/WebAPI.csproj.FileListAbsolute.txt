@@ -77,3 +77,8 @@ C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\WebAPI\bin\Debug\net7.0\Busine
 C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\WebAPI\bin\Debug\net7.0\DataAccess.dll
 C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\WebAPI\bin\Debug\net7.0\Business.pdb
 C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\WebAPI\bin\Debug\net7.0\DataAccess.pdb
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\WebAPI\bin\Debug\net7.0\Autofac.dll
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\WebAPI\bin\Debug\net7.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\WebAPI\bin\Debug\net7.0\Castle.Core.dll
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\WebAPI\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\yasin\Desktop\KodlamaIO\KodlamaIOProject\WebAPI\bin\Debug\net7.0\FluentValidation.dll

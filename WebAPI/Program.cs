@@ -1,5 +1,8 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Business.Abstract;
 using Business.Concrete;
+using Business.DependencyResolver.Autofac;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 
@@ -12,11 +15,21 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Host
+    .UseServiceProviderFactory(new AutofacServiceProviderFactory())
+    .ConfigureContainer<ContainerBuilder>(containerBuilder =>
+    {
+        containerBuilder.RegisterModule(new AutofacBusinessModule());
+    });
+    
+
 // Autofact AOP kullandirtir
 // autofact, ninject, castlewindsor, structuremap, lightInject, dryInject --> ioc container
 // AOP 
-builder.Services.AddSingleton<IProductService,ProductManager>();
-builder.Services.AddSingleton<IProductDal,EfProductDal>();
+// Postsharp 
+
+//builder.Services.AddSingleton<IProductService,ProductManager>();
+//builder.Services.AddSingleton<IProductDal,EfProductDal>();
 
 
 var app = builder.Build();
@@ -26,7 +39,9 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    
 }
+
 
 app.UseHttpsRedirection();
 
